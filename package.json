@@ -15,5 +15,9 @@
   "bugs": {
     "url": "https://github.com/jim-othy/jimsite/issues"
   },
-  "homepage": "https://github.com/jim-othy/jimsite#readme"
+  "homepage": "https://github.com/jim-othy/jimsite#readme",
+  "dependencies": {
+    "ci": "^2.2.0",
+    "run": "^1.4.0"
+  }
 }
