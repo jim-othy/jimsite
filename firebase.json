@@ -7,21 +7,19 @@
       "**/.*",
       "**/node_modules/**"
     ],
-    "rewrites": [ 
+    "rewrites": [
       {
         "source": "/archive",
         "destination": "/Pages/Archive/archive.html"
-      }, 
-
-
+      },
       {
         "source": "/archives/4041",
         "destination": "/Pages/Archives/4041.html"
-      }, 
+      },
       {
         "source": "/archives/launch",
         "destination": "/Pages/Archives/launch.html"
-      }, 
+      },
       {
         "source": "/archives/webv1",
         "destination": "/Pages/Archives/webv1.html"
