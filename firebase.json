@@ -10,7 +10,15 @@
     "rewrites": [
       {
         "source": "/archive",
-        "destination": "/Pages/Archive/archive.html"
+        "destination": "/Pages/archive.html"
+      },
+      {
+        "source": "/feed",
+        "destination": "/Pages/feed.xml"
+      },
+      {
+        "source": "/about",
+        "destination": "/Pages/about.html"
       },
       {
         "source": "/archives/4041",
@@ -23,6 +31,10 @@
       {
         "source": "/archives/webv1",
         "destination": "/Pages/Archives/webv1.html"
+      },
+      {
+        "source": "/archives/webv2",
+        "destination": "/Pages/Archives/webv2.html"
       }
     ]
   }
