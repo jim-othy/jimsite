@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0">
+
+<channel>
+  <title>Jim's Website</title>
+  <link>https://ggbh.tk/</link>
+  <description>Portfolio/Link Tree</description>
+  <item>
+    <title>Archived Pages and Projects</title>
+    <link>https://ggbh.tk/archive</link>
+    <description>Page consisting of deleted pages and projects</description>
+  </item>
+  <item>
+    <title>Languages and About</title>
+    <link>https://ggbh.tk/about</link>
+    <description>page with services, coding languages and an About Me!</description>
+  </item>
+  <copyright>2021 Jimothy</copyright>
+</channel>
+</rss>
