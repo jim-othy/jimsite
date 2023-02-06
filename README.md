@@ -1,7 +1,6 @@
 # Jimothy's Website
 
-Rework of my old website that I lost the code to. 
-https://ggbh.tk/
+My official website. Github auto-deploys it to the domain.
 
 ## why
 
@@ -17,7 +16,6 @@ Dillinger uses a number of open source projects to work properly:
 - [Javascript](https://www.javascript.com/) - javascript fr
 - [CSS/SCSS](https://www.w3.org/Style/CSS/Overview.en.html) - boi-oin-oing
 - [Bootstrap](https://getbootstrap.com/2.0.2/) - UI stuf
-- [AngularJS](https://angularjs.org/) - backend
 - [jQuery](https://jquery.com/) - it does the stuf js cant or something
 
 ## License
