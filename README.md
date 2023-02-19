@@ -20,4 +20,4 @@ Dillinger uses a number of open source projects to work properly:
 
 ## License
 
-[Jimothy's Website](https://j-im.vercel.app/) © 2023 is licensed under [CC BY-NC-ND 4.0](http://creativecommons.org/licenses/by-nc-nd/4.0/?ref=chooser-v1)
+[Jimothy's Website](https://j-imsite.web.app/) © 2023 is licensed under [CC BY-NC-ND 4.0](http://creativecommons.org/licenses/by-nc-nd/4.0/?ref=chooser-v1)
