@@ -1,4 +1,6 @@
 var heading = document.head.innerHTML
-var fontawesome = "<script src=\"https://kit.fontawesome.com/25d9666422.js\" crossorigin=\"anonymous\"></script>";
-var homepagecss = "<link rel=\"stylesheet\" href=\"https://j-imsite.web.app/Resources/Landing/home.css\">";
-document.head.innerHTML =  heading + fontawesome + homepagecss
+var resources = [
+    '<script src=\"https://kit.fontawesome.com/25d9666422.js\" crossorigin=\"anonymous\"></script>', // Fontawesome
+    '<link rel=\"stylesheet\" href=\"https://j-imsite.web.app/Resources/Landing/home.css\">', // Index CSS
+]
+document.head.innerHTML =  heading + resources
