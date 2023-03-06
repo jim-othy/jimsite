@@ -1,0 +1,45 @@
+@import "compass/css3";
+ html {
+	 overflow: -moz-scrollbars-vertical;
+	 overflow-y: scroll;
+     background: linear-gradient(to right, #1a1919, #1a1919); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+     color: white;
+}
+ .container {
+	 max-width: 980px;
+	 margin: auto;
+	 padding: 2.2448979592%;
+}
+ .projects {
+	 list-style: none;
+	 padding: 0;
+	 margin: 0 -2.2448979592%;
+	 position: relative;
+	 font-size: 0;
+	 overflow: hidden;
+}
+ .projects li {
+	 display: inline-block;
+	 vertical-align: top;
+	 margin: 45px 2.2448979592% 0 2.3469387755%;
+	 width: 20.4081632653%;
+}
+ .projects a {
+	 text-decoration: none;
+	 color: white;
+	 display: block;
+	 font-size: 22px;
+     text-align: center;
+}
+ .projects a img {
+	 display: block;
+	 max-width: 100%;
+	 height: auto !important;
+}
+ .projects .project-label {
+	 display: block;
+	 margin: 5px 0 10px;
+}
+ .projects h3 {
+	 font-size: 16px;
+}
