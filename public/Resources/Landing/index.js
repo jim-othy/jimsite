@@ -1,7 +1,18 @@
-var heading = document.head.innerHTML
-var resources = [
-    '<script src=\"https://kit.fontawesome.com/25d9666422.js\" crossorigin=\"anonymous\"></script>', // Fontawesome
-    '<link rel=\"stylesheet\" href=\"https://j-imsite.web.app/Resources/Landing/home.css\">', // Index CSS
-    '<link rel=\"stylesheet\" href=\"./Resources/Landing/home.css\">'
-]
-document.head.innerHTML =  heading + resources
+var audio = new Audio('./Resources/Music/homepage.mp3');
+var playing = false
+function btnstuff() {
+    if(playing == false) {
+        console.log("Playing...");
+        document.getElementById("btn").innerHTML = "<i class=\"fa-sharp fa-solid fa-pause\"></i>"
+        audio.play();
+        playing = true
+        return
+    }
+    if(playing == true) {
+        console.log("Stopped.")
+        document.getElementById("btn").innerHTML = "<i class=\"fa-sharp fa-solid fa-play\"></i>"
+        audio.pause();
+        playing = false
+        return
+    }
+}
