@@ -17,8 +17,12 @@
         "destination": "/Pages/feed.xml"
       },
       {
-        "source": "/about",
-        "destination": "/Pages/about.html"
+        "source": "/projects",
+        "destination": "/Pages/projects.html"
+      },
+      {
+        "source": "/exam.ple",
+        "destination": "/Pages/Projects/exam.ple.html"
       },
       {
         "source": "/archives/4041",
