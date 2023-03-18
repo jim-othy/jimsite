@@ -13,14 +13,6 @@
         "destination": "/Pages/archive.html"
       },
       {
-        "source": "/feeds",
-        "destination": "/Pages/feed.xml"
-      },
-      {
-        "source": "/projects",
-        "destination": "/Pages/projects.html"
-      },
-      {
         "source": "/exam.ple",
         "destination": "/Pages/Projects/exam.ple.html"
       },
@@ -33,12 +25,8 @@
         "destination": "/Pages/Archives/launch.html"
       },
       {
-        "source": "/archives/webv1",
-        "destination": "/Pages/Archives/webv1.html"
-      },
-      {
-        "source": "/archives/webv2",
-        "destination": "/Pages/Archives/webv2.html"
+        "source": "/archives/web",
+        "destination": "/Pages/Archives/web.html"
       }
     ]
   }
