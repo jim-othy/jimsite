@@ -6,43 +6,90 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <!--Titling-->    
-    <title>Jimoty</title>
+    <title>/dev/Jim</title>
   <!--Icon & Look-->
-    <link rel="apple-touch-icon" sizes="180x180" href="https://j-imsite.web.app/Resources/Images/Icons/apple-touch-icon.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="https://j-imsite.web.app/Resources/Images/Icons/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="https://j-imsite.web.app/Resources/Images/Icons/favicon-16x16.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="https://j-imsite.web.app/Resources/Images/favicon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="https://j-imsite.web.app/Resources/Images/favicon.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="https://j-imsite.web.app/Resources/Images/favicon.png">
     <meta name="msapplication-TileColor" content="#da532c">
     <meta name="theme-color" content="#ffffff">
     <link rel="canonical" href="https://j-imsite.web.app/"/>
   <!--Metadata-->
-    <meta content="Jim's Site" property="og:title">
+    <meta content="/dev/Jim" property="og:title">
     <meta name="description" content="LINKTREE | Portfolio">
     <meta content="LINKTREE | Portfolio" property="og:description">
     <meta content="https://j-imsite.web.app/" property="og:url">
-    <meta content="https://j-imsite.web.app/Resources/Images/Icons/apple-touch-icon.png" property="og:image">
+    <meta content="./Images/favicon.png" property="og:image">
     <meta content="#ffffff" data-react-helmet="true" name="theme-color">
   <!--Resources-->
-  <link rel="stylesheet" href="https://j-imsite.web.app/Resources/Landing/home.css">
-  </head>
+  <link rel="stylesheet" href="https://j-imsite.web.app/Resources/StyleSheets/index.css">
+  <script src="https://kit.fontawesome.com/25d9666422.js" crossorigin="anonymous"></script>
+</head>
     <body>
-      
-<header id="header">
-  <div class="vert-text">
-	<div class="p-img">
-	<a href="https://j-imsite.web.app/archive"><img id="catimg" src="https://j-imsite.web.app/Resources/Images/catnoodles.png"/></a>
-</div>
-            <h1 id="typer-size">                
-                <div id="typed-strings">
-                	<p>Jimo'thy</span> </p>
-                </div>
-            </h1>
-    <h3><a href="https://j-imsite.web.app/projects">PROJECTS</a> | <a href="https://github.com/jim-othy">GITHUB</a></h3>
-  </div>
-</header>
-    <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
-      <script src="./Resources/Landing/index.js"></script>
-      <script src="https://j-imsite.web.app/Resources/load.js"></script>
-      <script src="https://kit.fontawesome.com/25d9666422.js" crossorigin="anonymous"></script>
-      <link rel="stylesheet" href="./Resources/Landing/home.css">
+
+        <!-- Navigation -->
+        <nav id="main-menu">
+            <ul class="nav-bar">
+                 <li class="nav-button-home"><a href=""><i id="navicon" class="fa-solid fa-house"></i> Home</a></li>
+                 <li class="nav-button-projects"><a href="https://github.com/jim-othy"><i id="navicon" class="fa-solid fa-code"></i> Projects</a></li>
+                 <li class="nav-button-github"><a href="https://github.com/jim-othy"><i id="navicon" class="fa-brands fa-github"></i> Github</a></li>
+            </ul>
+       </nav>
+
+       <!-- Logo -->
+            <img class="logoheader" src="https://j-imsite.web.app/Resources/Images/logo.png">
+            <h2 class="headertext"><span class="devtext">/dev/</span><a class="githubtext" href="https://j-imsite.web.app">Jimothy</a></h2>
+
+<!-- FOR FUTURE
+       <a href="#skills">
+        <div id="mouse-scroll">
+          <div class="mouse">
+            <div class="mouse-in"></div>
+          </div>
+          <div>
+              <span class="down-arrow-1"></span>
+              <span class="down-arrow-2"></span>
+              <span class="down-arrow-3"></span>
+           </div>
+        </div>
+        </a>        
+       <div class="skillheader">
+        <h1 id="skills">Skills & Languages</h1>
+      </div> 
+      <div id="skills" class="row">
+        <div class="col-md-6 progress-outer-column">
+          <div class="progress-inner-column">
+            <p class="pro-lang">HTML</p>
+            <div class="outer-bar redouter">
+              <div class="inner-progress-bar redinner prog1"><p>90%</p></div>
+            </div>
+            <p class="pro-lang">CSS</p>   
+            <div class="outer-bar blueouter">
+               <div class="inner-progress-bar blueinner prog2"><p>75%</p></div>
+            </div>
+            <p class="pro-lang">JavaScript, jQuery</p>
+            <div class="outer-bar yellowouter">      
+              <div class="inner-progress-bar yellowinner prog3"><p>60%</p></div>
+            </div>
+            <p class="pro-lang">Boostrap</p>
+            <div class="outer-bar purpleouter">      
+              <div class="inner-progress-bar purpleinner prog1"><p>90%</p></div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6 progress-outer-column">
+          <div class="progress-inner-column">
+            <p class="pro-lang">MySQL</p>
+            <div class="outer-bar greenouter">      
+              <div class="inner-progress-bar greeninner prog4"><p>15%</p></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    -->
+    <!-- Scripts -->
+        <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
+        <script src="./Scripts/index.js"></script>
+        <script src="https://j-imsite.web.app/Resources/load.js"></script>
     </body>
 </html>
