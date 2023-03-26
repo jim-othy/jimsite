@@ -1,0 +1,113 @@
+/* Body */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: "Courier New", Courier, monospace;
+    background-color: #f4f4f4;
+  }
+  
+  /* Container */
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  
+  /* Title */
+  .title {
+    font-size: 48px;
+    font-weight: bold;
+    color: #333;
+    text-align: center;
+    margin-bottom: 50px;
+    text-shadow: 1px 1px #ccc;
+  }
+  
+  /* Cards */
+  .cards {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  /* Card */
+  .card {
+    width: 30%;
+    background-color: #fff;
+    margin-bottom: 50px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s;
+    border-radius: 5px;
+  }
+  
+  .card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.4);
+  }
+  
+  /* Card Image */
+  .card-img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+  }
+  
+  /* Card Content */
+  .card-content {
+    padding: 20px;
+  }
+  
+  /* Card Title */
+  .card-title {
+    font-size: 24px;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 10px;
+  }
+  
+  /* Card Description */
+  .card-description {
+    font-size: 16px;
+    color: #666;
+    margin-bottom: 20px;
+    line-height: 1.4;
+  }
+  
+  /* Animations */
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+  
+  .card:nth-child(1) {
+    animation: fadeIn 0.5s ease 0.1s both;
+  }
+  
+  .card:nth-child(2) {
+    animation: fadeIn 0.5s ease 0.2s both;
+  }
+  
+  .card:nth-child(3) {
+    animation: fadeIn 0.5s ease 0.3s both;
+  }
+  
+  .card:nth-child(4) {
+    animation: fadeIn 0.5s ease 0.4s both;
+  }
+  
+  .card:nth-child(5) {
+    animation: fadeIn 0.5s ease 0.5s both;
+  }
+  
+  .card:nth-child(6) {
+    animation: fadeIn 0.5s ease 0.6s both;
+  }
