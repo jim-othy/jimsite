@@ -1,0 +1,68 @@
+body {
+  background: #232425;
+  font-family: "Courier new", courier, monospace;
+  color: white;
+}
+
+.error-container {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.error-code-letter-1 {
+  display: inline-block;
+  animation: bounce 0.9s infinite;
+}
+
+.error-code-letter-2 {
+  display: inline-block;
+  animation: bounce 0.7s infinite;
+}
+
+@keyframes bounce {
+  0% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-10px);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+
+.error-code {
+  color: #f44336;
+  margin: 0;
+  display: inline-block;
+}
+
+.error-message {
+  font-size: 20px;
+  margin-top: 20px;
+}
+
+.homepage-link {
+  color: #F2F2F2;
+  text-decoration: none;
+  font-weight: bold;
+  margin-top: 20px;
+}
+
+.homepage-link:hover {
+  color: #d8d6d6;
+}
+
+@media (max-width: 768px) {
+  .error-message {
+    font-size: 16px;
+    margin-top: 10px;
+  }
+  
+  .homepage-link {
+    margin-top: 10px;
+  }
+}

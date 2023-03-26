@@ -1,0 +1,57 @@
+body {
+    background-color: #232425;
+    margin: 0;
+    height: 100vh;
+}
+
+header {
+    color: #f44336;
+    font-size: 3rem;
+    text-align: center;
+    margin-top: 20vh;
+}
+
+.loader {
+    border: 10px solid #fff;
+    border-top: 10px solid #f44336;
+    border-radius: 50%;
+    width: 80px;
+    height: 80px;
+    animation: spin 2s linear infinite;
+    margin: auto;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+
+@keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}
+
+@keyframes glitch {
+    0% { content: "ERROR: 408"; }
+    25% { content: "ERRROR: 408"; }
+    50% { content: "ERROR: 4O8"; }
+    75% { content: "ERROR: 408"; }
+    100% { content: "ERR0R: 408"; }
+}
+
+header span {
+    animation: glitch 2s linear infinite;
+    display: inline-block;
+    white-space: nowrap;
+}
+
+@media only screen and (max-width: 600px) {
+    header {
+        font-size: 2rem;
+        margin-top: 15vh;
+    }
+    .loader {
+        width: 60px;
+        height: 60px;
+    }
+}
