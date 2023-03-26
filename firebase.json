@@ -10,23 +10,11 @@
     "rewrites": [
       {
         "source": "/archive",
-        "destination": "/Pages/archive.html"
+        "destination": "/Pages/Archive/archive.html"
       },
       {
         "source": "/exam.ple",
-        "destination": "/Pages/Projects/exam.ple.html"
-      },
-      {
-        "source": "/archives/4041",
-        "destination": "/Pages/Archives/4041.html"
-      },
-      {
-        "source": "/archives/launch",
-        "destination": "/Pages/Archives/launch.html"
-      },
-      {
-        "source": "/archives/web",
-        "destination": "/Pages/Archives/web.html"
+        "destination": "/Pages/Projects/Projects/exam.ple.html"
       }
     ]
   }
