@@ -11,10 +11,6 @@
       {
         "source": "/archive",
         "destination": "/Pages/Archive/archive.html"
-      },
-      {
-        "source": "/exam.ple",
-        "destination": "/Pages/Projects/Projects/exam.ple.html"
       }
     ]
   }
