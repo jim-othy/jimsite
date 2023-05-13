@@ -1,23 +1,13 @@
-# Jimothy's Website
-
-My official website. Github auto-deploys it to the domain.
-
-## why
-
-- website is fr just a link tree without shitty graphic design
-- i host some projects on it, if they use html or something
-- it looks cool
+[![Made withJupyter](https://img.shields.io/badge/Hosted%20with-Firebase-orange?style=for-the-badge&logo=firebase)](https://jupyter.org/try)
 
 ## Languages
-
-Dillinger uses a number of open source projects to work properly:
-
-- [HTML](https://www.w3schools.com/html/) - the thing with the stuff
-- [Javascript](https://www.javascript.com/) - javascript fr
-- [CSS/SCSS](https://www.w3.org/Style/CSS/Overview.en.html) - boi-oin-oing
-- [Bootstrap](https://getbootstrap.com/2.0.2/) - UI stuf
-- [jQuery](https://jquery.com/) - it does the stuf js cant or something
+![](https://img.shields.io/badge/-HTML-E34F26?style=flat-square&logo=html5&logoColor=white)
+![](https://img.shields.io/badge/-CSS3-1572B6?style=flat-square&logo=css3&logoColor=white)
+<br />
+![](https://img.shields.io/badge/-JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=white)
+![](https://img.shields.io/badge/-Jquery-F7DF1E?style=flat-square&logo=jquery&logoColor=white)
 
 ## License
-
 [Jimothy's Website](https://j-imsite.web.app/) © 2023 is licensed under [CC BY-NC-ND 4.0](http://creativecommons.org/licenses/by-nc-nd/4.0/?ref=chooser-v1)
+| 
+[![Website shields.io](https://img.shields.io/website-up-down-green-red/http/shields.io.svg)](http://shields.io/)
